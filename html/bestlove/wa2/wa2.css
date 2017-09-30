@@ -1,0 +1,142 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: '楷体';
+    color: #f200ff;
+}
+
+body{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 3000px;
+}
+#bg{
+    width:100%;
+    height:100%;
+    background-image: url("src/background.png");
+    position: fixed;
+    z-index: -1;
+    display:block;
+}
+#ming{
+    width:100%;
+    height:100%;
+    background-color: black;
+    background-size:100%;
+    opacity: 0.1;
+    display:block;
+}
+#top{
+    width:100%;
+    height:115px;
+    overflow: hidden;
+    padding-top: 40px;
+}
+#walogo{
+    width: 280px;
+    height: 115px;
+    background-image: url("src/logoc.png");
+    margin-left: 200px;
+    float: left;
+}
+#wate{
+    position: relative;
+    left:175px;
+    top:30px;
+    float: left;
+}
+#wate h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+#wadao{
+    width: 280px;
+    height: 70px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top:40px;
+    right: 50px;
+}
+#wadao li{
+    text-align: center;
+    list-style-type: none;
+    font-size: 50px;
+    float: left;
+    width: 70px;
+    line-height: 70px;
+    position: relative;
+    bottom: 10px;
+}
+#wadao li a{
+    color: white;
+}
+#text{
+    width: 500px;
+    height: 280px;
+    margin: 100px   auto 0  auto;
+    background-color: black;
+    opacity: 0.7;
+}
+#text p{
+    text-indent: 1.7em;
+    color: white;
+}
+#next {
+
+}
+#go{
+    padding-top: 100px;
+    padding-left: 650px;
+}
+#spring{
+    width: 1000px;
+    margin: 0 auto;
+}
+.biaoqian{
+    width: 300px;
+    height: 70px;
+    background-color: black;
+    opacity: 0.7;
+    font-size: 30px;
+    line-height: 70px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.picture{
+    width: 500px;
+    float: left;
+}
+.text{
+    width: 500px;
+    float: right;
+}
+.text p{
+    text-indent: 1.2em;
+    color: white;
+    font-size: 18px;
+    white-space: normal;
+}
+.text2{
+    width: 1000px;
+    clear: both;
+}
+.text2 p{
+    white-space: normal;
+    color: white;
+    font-size: 18px;
+}
+.text2 h1{
+    text-align: center;
+    margin-top: 30px;
+}
+#summer,#autoumn,#winter{
+    clear: both;
+}

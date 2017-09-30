@@ -1,0 +1,48 @@
+.circle{
+      width:200px;
+      height:200px;
+      border-radius:100px;
+      border: solid rgb(200,200,200) 1px;
+
+  }
+.touxiang{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    border: solid rgb(79, 139, 255) 1px;
+    background-image: url("../images/touxiang.jpg");
+    margin-top: 20px;
+}
+.ishow{
+    border-bottom: solid 3px #67efff;
+    margin-bottom: 3px;
+    height: 320px;
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #F1FBF2;
+}
+.shida{
+    width: 200px;
+    height: 320px;
+    float: right;
+    margin-right: 250px;
+}
+.ishow-left{
+    width: 230px;
+    height: 320px;
+    float: left;
+    margin-left: 250px;
+}
+.ishow-left p{
+    font-family: 楷体;
+
+}
+.intext h3{
+    text-align: center;
+    color: #f647ff
+}
+.intext p{
+    font-size: 20px;
+    font-family: 楷体;
+    color: #4f8bff;
+}

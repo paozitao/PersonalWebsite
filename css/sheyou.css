@@ -1,0 +1,68 @@
+p{
+    font-size: 17px;
+}
+.sbox1 h3{
+    font-family: 楷体;
+    font-size: 40px;
+    text-align: center;
+}
+.sbox1 p{
+    font-size: 20px;
+    font-family: 楷体;
+}
+
+.flout{
+    clear:both;
+    height:0;
+    overflow:hidden;
+}
+.tx{
+    margin-top:50px;
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    border: solid rgb(0, 0, 0) 1px;
+    float: left;
+    clear:both;
+    overflow:hidden;
+}
+.sbox2{
+     height: 300px;
+     border: solid 3px cornflowerblue;
+ }
+.sbox3{
+    height: 300px;
+    border: outset 3px #ed48cc;
+}
+.sbox4{
+    height: 300px;
+    border: solid 3px #81ed68;
+}
+.sbox5{
+     height: 300px;
+     border: inset 3px #ed8940;
+}
+.sbox2r{
+    float: right;
+    width: 700px;
+    margin-top: 50px;
+    margin-right: 70px;
+}
+.sbox3r{
+    float: right;
+    width: 700px;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+.sbox4r{
+    float: right;
+    width: 700px;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+.sbox5r{
+    float: right;
+    width: 700px;
+    margin-top: 60px;
+    margin-right: 70px;
+}

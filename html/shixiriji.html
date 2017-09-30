@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>实习日记</title>
+  <link rel="shortcut icon" href="../images/favicon.ico" />
+  <link rel="stylesheet" href="../css/shixiriji.css">
+  <link rel="stylesheet" href="../css/incss.css">
+  <link rel="stylesheet" href="../css/css.css">
+  <script src="../JavaScript/background/background.js"></script>
+  <script src="../JavaScript/jquery-1.4.4.min.js"></script>
+</head>
+<body>
+<div class="top" id="ding">
+  <div class="topin"><ul><li>通信工程1602—刘涛</li></ul></div>
+</div>
+<div class="middle">
+  <div class="logo">
+    <img src="../images/logo_long20150923.jpg">
+    <img src="../images/logo.png">
+  </div>
+  <div class="meau">
+    <div class="meau-left"></div>
+    <ul>
+      <li><a href="../index.html"> 个人首页</a></li>
+      <li><a href="introduce.html"> 个人介绍</a> </li>
+      <li><a href="sheyou.html"> 我的家人</a></li>
+      <li><a href="#"> 实习日记</a></li>
+    </ul>
+  </div>
+</div>
+<div id="text">
+    <div class="container">
+  <div class="code-wrap cf">
+    <div class="css-live-wrap">
+      <ul>
+        <li></li>
+      </ul>
+      <summary>7.9</summary>
+      <summary>复习html和css</summary>
+    </div>
+    <div class="code" contenteditable=flase>
+      <p>       1.引用css
+        解决：
+           a.外部文件：在head中加入link href="文件路径/css.css" rel="stylesheet" type="text/css"
+
+            b.内部标签 style type="text/css"
+
+        2.水平导航菜单制作
+
+            要点：
+                   利用ul li 对li标签实现左浮动，主要代码：li {float:left}
+
+        知识点：
+            边距margin、填充padding、hover鼠标移动。其中margin、padding分为top、bottom、right、left。
+
+            margin：
+              10px 10px 10px 10px 调节上右下左，10px 10px 调节上下、左右 数值可为负值
+              填充padding的格式与margin相同
+
+        注意：
+          在定义内容宽度与高度后，margin和padding是会在原本内容的基础上加，原本内容的宽高不变。</p>
+    </div>
+  </div>
+</div>    <!--7.9-->
+    <div class="container">
+<div class="code-wrap cf">
+<div class="css-live-wrap">
+  <ul>
+    <li></li>
+  </ul>
+<summary>7.10</summary>
+<summary>开始初步设计网页布局</summary>
+</div>
+<div class="code" contenteditable=flase>
+<p>       问题：
+        1.引用文件，在background-image，音频文件时，路径出错，css出现找不到文件，只能放到同一的文件夹中，音频正确，ulr跟href
+
+          是不一样的，同时在调节盒子大小是要调节照片的像素，通过画图的改变照片大小可以做到，盒子的高宽是很重要的。
+
+        解决：在webstrom上，调用图片的ulr可以在前缀加入..子文件、文件例：background:ulr(../images/1.png)
+
+        知识点：font-size，font-family字体类型，color可以直接改变字体颜色。
+
+        2.浮动型，块型，层型。布局三大类型。position的运用：absolute，fixed，relative 调节盒子大小。
+
+        3.网页布局，三大块，顶端，中间，底端声明。中间再分为logo区，导航区，展示区等，利用div分块，实现布局。
+</p>
+</div>
+</div>
+</div>    <!--7.10-->
+    <div class="container">
+  <div class="code-wrap cf">
+  <div class="css-live-wrap">
+    <ul>
+      <li></li>
+    </ul>
+<summary>7.11</summary>
+<summary>开始制作首页</summary>
+</div>
+  <div class="code" contenteditable=flase>
+  <p>      1.ul li便签有很大的妙用，本身他们就是以div类似的块，可以进行分布li、ul也可以插入图片
+
+      2.css中可以先调节基本的格式，比如a便签的连接样式可以提前取消：a:link,a:visited,a:hover{text-decoration:none，color},
+
+      这样超链接就不会很难看。
+
+      3.jsfocus是很实用的焦点图特效，利用ul,li 实现首先调用其js文件，具体的script:myFocus.set({id:"对应ul的div的id"})。对ul
+
+      所在的div命名id。焦点图的大小一致。
+
+      4.line-height 的高度与所在div高度相同，text-align：center 。则其中的字体处于div中间，这样的效果最舒服。
+  </p>
+</div>
+</div>
+  </div>    <!--7.11-->
+    <div class="container">
+  <div class="code-wrap cf">
+    <div class="css-live-wrap">
+      <ul>
+        <li></li>
+      </ul>
+      <summary>7.12</summary>
+      <summary>制作子页面</summary>
+    </div>
+    <div class="code" contenteditable=flase>
+      <p>          1.div变成圆形：首先div高宽一致在加border-radius:50px;即可。
+
+          2.background为图片是可以在同一行加上style ：background:ulr() no-repeat right center.....。
+
+          3.浮动会让元素塌陷。即被浮动元素的父元素不具有高度。例如一个父元素包含了浮动元素，它将塌陷具有零高度。
+
+          解决：在浮动元素后加个div设置clear: both; height:0,overflow:hidden。
+
+          原因：我的左右都不能有浮动元素，所以它会排在浮动元素的下边，那么父元素为了包含这个没有浮动的“它”，就会被撑开。
+      </p>
+    </div>
+  </div>
+</div>    <!--7.12-->
+    <div class="container">
+  <div class="code-wrap cf">
+    <div class="css-live-wrap">
+      <ul>
+        <li></li>
+      </ul>
+      <summary>7.13</summary>
+      <summary>制作子页面</summary>
+    </div>
+    <div class="code" contenteditable=flase>
+      <p>          1.调用网络上的背景demo，下载后设置对应的div “z-index：-1”即可。
+
+          2.调用多个css格式中，对同一内容格式的设置，优先级是怎么样判别的的？
+
+          解决：
+
+              第一：样式的优先级
+
+              （外部样式）External style sheet <（内部样式）Internal style sheet <（内联样式）Inline style
+
+              第二：选择器的优先级
+
+                  1.  内联样式表的权值最高 1000；
+
+                  2.  ID 选择器的权值为 100
+
+                  3.  Class 类选择器的权值为 10
+
+                  4.  HTML 标签选择器的权值为 1
+
+              详见http://www.cnblogs.com/xugang/archive/2010/09/24/1833760.html</p>
+    </div>
+  </div>
+</div>    <!--7.13-->
+    <div class="container">
+  <div class="code-wrap cf">
+    <div class="css-live-wrap">
+      <ul>
+        <li></li>
+      </ul>
+      <summary>7.14</summary>
+      <summary>js初使用</summary>
+    </div>
+    <div class="code" contenteditable=flase>
+      <p>          1.js的几个基本事件
+
+              onclick鼠标点击、ondblclick鼠标双击某个对象、
+
+              onmouseover鼠标被移到某元素之上、onmouseout鼠标从某元素移开
+
+              onmousedown某个鼠标按键被按下、onmouseup某个鼠标按键被松开
+
+          2.如何用js创建二级目录？
+
+          解决：
+            首先设计函数，当鼠标移动到一级目录及第二目录时，二级目录的display设为block（其初始的display为none）
+
+            鼠标移出时调用另一个函数对二级目录的display设为none
+
+          另外:为了二级目录的效果，将其的position调为absolute这样就不会让页面的布局发生变化。
+
+          3.实现返回顶部的功能
+
+            需要一个显示返回顶部的图标，然后在一个a标签中运用href="#"即可
+
+          4.href的其他用法
+
+            a href="#adas"可以跳到对应id的位置
+
+	  5.运用document.getElementById("..")和document.getElementsByTagName("..")来获取页面元素
+      </p>
+    </div>
+  </div>
+</div>    <!--7.14-->
+    <div class="container">
+    <div class="code-wrap cf">
+      <div class="css-live-wrap">
+        <ul>
+          <li></li>
+        </ul>
+        <summary>7.15</summary>
+        <summary>宝哥的一席话</summary>
+      </div>
+      <div class="code" contenteditable=flase>
+        <p>
+            1.宝哥的一席话
+
+            宝哥跟我们聊了一个小时，大致内容是告诫我们要认真地度过未来的大学生活，不要混下去。
+
+            我们已经摆脱了对大学的新鲜感，对大学生活有了自己的理解，但宝哥不希望我们有错误的理解。
+
+            大学不是用来混的，不是用来打游戏，玩手机的，宝哥说了一些例子，很可怕，我知道宝哥对我们这一级
+
+            的期望很大，宝哥是我们通信专业最早的毕业生，是把通信专业的学生当成自己家的孩子，宝哥真的希望
+
+            我们能够好好地利用大学的时间，做出一些东西来，有所成就，所以我不想辜负宝哥的期望。
+
+            在暑假里我会学习一些我感兴趣的知识，比如Android和java，在慕课网和实验楼上学习，然后
+
+            练习，争取不荒废暑假的时间，每天限制打游戏的时间，游戏是为了放松，不要让游戏打乱自己的生活。
+
+            2.js在head和body的位置
+
+            script在head是在页面元素显示之前所加载的，在head里script的函数以外的
+
+            对页面元素操作的语句都是不会调用的。
+
+            在body里面调用则可以，因为页面的元素已经显示完成。
+
+            解决：可以在head里的script在window.onload=function(){...}实现对页面元素的操作。
+
+            3.js的function的运用十分灵活可以匿名调用也可以多重嵌套
+
+        </p>
+      </div>
+    </div>
+  </div>    <!--7.15-->
+    <div class="container">
+  <div class="code-wrap cf">
+    <div class="css-live-wrap">
+      <ul>
+        <li></li>
+      </ul>
+      <summary>7.16</summary>
+      <summary>继续学习js</summary>
+    </div>
+    <div class="code" contenteditable=flase>
+      <p>
+          1.计时器setInterval(function(),100)执行的函数和时间间隔单位为毫秒。
+
+          运用计时器能够实现动画化，根据人眼的视觉残留，时间间隔调为30即可实现动态效果。
+
+          在使用多个计时器时可以用不同变量来存储不同的计时器，还有clearINterval（‘变量名’）关闭计时器。
+
+          2.今天结束了对html、css、js的讲解，大家开始自己利用学到的知识制作个人网页，我也开始制作一个介绍我喜欢
+
+          的动漫的网页。首先要做好布局，然后写上要实现的动态效果，找素材，开始制作。
+      </p>
+    </div>
+  </div>
+</div>    <!--7.16-->
+    <div class="container">
+        <div class="code-wrap cf">
+            <div class="css-live-wrap">
+                <ul>
+                    <li></li>
+                </ul>
+                <summary>7.17</summary>
+                <summary>个人网页的制作</summary>
+            </div>
+        <div class="code" contenteditable=flase>
+            <p>
+                1.个人网站的基本布局。三部分，顶部，中部，底部。顶部为说明，中部分为logo区，导航区，展示区等主要内容
+
+                底部则是我的一些小趣味。大致模仿现在页面的布局，再加上一些找到的动态效果，完成个人网站。
+
+                2.另外的网页，作业之外的网页，打算模仿一些新的，个性化很强的网页，把自己的感兴趣的内容用网页展示出来。
+
+                </p>
+        </div>
+        </div>
+    </div>    <!--7.17-->
+    <div class="container">
+        <div class="code-wrap cf">
+            <div class="css-live-wrap">
+                <ul>
+                    <li></li>
+                </ul>
+                <summary>7.18</summary>
+                <summary>制作个人网页</summary>
+            </div>
+            <div class="code" contenteditable=flase>
+                <p>
+                    1.设置背景
+
+                    首先调节背景图片的大小，将其作为一个div的背景图片，将其div的width和height设为100%，z-index设为-1，postion设为
+
+                    fixed。就会形成一个在最底层的覆盖整个页面的背景图片。
+
+                    2.透明度
+
+                    透明度opacity是一个实现动态化的常用属性，通过调节div的背景的透明度可以透过div看出底部的内容，总之，opacity是一个
+
+                    很不错的style属性。
+
+                    3.平滑移动
+
+                    之前的href=“#id”可以实现在一个页面跳跃到其id所在的位置，但其跳跃的方式很难看，是直接就闪到该id处，可以调用一个
+                    jQuery函数实现平滑跳动。
+                </p>
+            </div>
+        </div>
+    </div>    <!--7.18-->
+    <div class="container">
+        <div class="code-wrap cf">
+            <div class="css-live-wrap">
+                <ul>
+                    <li></li>
+                </ul>
+                <summary>7.19</summary>
+                <summary>初识数据库</summary>
+            </div>
+            <div class="code" contenteditable=flase>
+                <p>
+                    昨天下午开始数据库的连接，安装了Java类库，tomcat，mysql，设置了环境变量。
+
+                    今天还是继续调试环境，讲解了一个把注册信息传给数据库的例子。我们是以jsp作为实现动态页面的语言。
+
+                    通过<% %>标签引入对应的Java类，实现客户端与服务器的交互，B/S。通过这个例子我明白了动态页面的大致过程。
+
+                    用户浏览动态网页时，需要在服务器上动态执行该网页文件，将含有程序代码的动态网页转化为
+
+                    标准的静态网页，最后把静态网页发送给用户
+
+                </p>
+            </div>
+        </div>
+    </div>    <!--7.19-->
+    <div class="container">
+        <div class="code-wrap cf">
+            <div class="css-live-wrap">
+                <ul>
+                    <li></li>
+                </ul>
+                <summary>7.20</summary>
+                <summary>完善个人网页</summary>
+            </div>
+            <div class="code" contenteditable=flase>
+                <p>
+                    今天完善网页，尽可能地让页面个性化，实现动态化，调试了一些bug，之前没有发现的东西，同时也发现自己的功力
+
+                    还是太浅，对前端的理解真的太少，我们这几天仅仅是入门，前端世界的大门才打开了微微的一条缝，需要我们继续为
+
+                    之努力和学习，对于js来说，其灵活的运用就让无数的人为之努力，我也会继续努力，在以后的时间里多加研究，其实
+
+                    我还有一些自己的想法没有实现，在之后我会加以实现。
+                </p>
+            </div>
+        </div>
+    </div>    <!--7.20-->
+</div>
+<div class="bottom">
+  <div class="bgaun">
+    <ul>
+      <li><a >关于</a>
+        <ul>
+          <li><a href="../index.html">返回首页</a></li>
+          <li><a>作者小白</a></li>
+          <li><a>制作粗糙</a></li>
+        </ul>
+      </li>
+      <li><a>声明</a>
+        <ul>
+          <li><a>纯属娱乐</a></li>
+          <li><a>感谢浏览</a></li>
+          <li><a>我爱冬马</a></li>
+        </ul>
+      </li>
+      <li><a>联系方式</a>
+        <ul>
+          <li><a>QQ：253696431</a></li>
+          <li><a>微信：paozitao620</a></li>
+          <li><a>邮箱：lt5132908@gmail.com</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="pagetop"><a href="#ding" class="link"><img src="../images/pagetop.png"></a></div>
+<!--背景-->
+<div id="particle" style="background-color: #ffffff"></div>
+<script>
+    var options = {
+        "particles":{
+            "number":{
+                "value":99,"density":{"enable":true,"value_area":552.4033491425909}},"color":{"value":"#06ed22"},"shape":
+                {"type":"circle","stroke":{"width":0,"color":"#06ed49"},"polygon":{
+                    "nb_sides":3},"image":{"src":"img/github.svg","width":70,"height":100}},"opacity":{
+                "value":2,"random":true,"anim":{"enable":false,"speed":10,"opacity_min":0.1,"sync":false}},"size":{
+                "value":3,"random":true,"anim":{"enable":false,"speed":80,"size_min":0.2,"sync":false}},"line_linked":
+                {"enable":false,"distance":150,"color":"#000000","opacity":0.8,"width":1},"move":{"enable":true,"speed":1.5782952832645452,"direction":"none",
+                "random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas",
+            "events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},
+                "bubble":{"distance":400,"size":90,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},
+        "retina_detect":false};
+    particlesJS("particle", options);
+</script>
+<script>
+    $(document).ready(function() {
+        $("a.link").click(function() {
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top + "px"
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
+            return false;
+        });
+    });
+</script>
+</body>
